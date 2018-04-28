@@ -22,6 +22,11 @@ namespace BaltaStore.Api.Controllers
             _handler = handler;
         }
 
+        public ActionResult Index()
+        {
+            return View(_repository.Get());
+        }
+
         [HttpGet]
         [Route("v1/customers")]
         [ResponseCache(Duration = 15)]

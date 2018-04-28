@@ -63,5 +63,7 @@ namespace BaltaStore.Api
 
             app.UseElmahIo("923f4c946cc1435cb0ec665d6e7370b7", new Guid("e42a9995-df89-4d91-a625-ecc57d124004"));
         }
+
+        //this is my new startup
     }
 }
